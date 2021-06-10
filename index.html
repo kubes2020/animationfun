@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Animation Fun</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            /* This animation is only using Keyframes */
+
+            /* .hamburger:hover .line-one,
+            .hamburger:hover .line-two,
+            .hamburger:hover .line-three {
+                transform-origin: 50% 50%;
+                animation: line-grow ease-out 500ms;
+            }
+            .hamburger:hover .line-two {
+                animation-delay: 75ms;  
+            }
+            .hamburger:hover .line-three {
+                animation-delay: 150ms;  
+            }
+            @keyframes line-grow {
+                0% { transform: scaleX(1)}
+                50% { transform: scaleX(1.5)}
+                100% { transform: scaleX(1)}
+            } */
+        </style>
+    </head>
+    <body>
+        <h1>Animation for fun!</h1>
+        <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <line class="line-one" x1="25" y1="42" x2="75" y2="42" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"></line>
+            <line class="line-two" x1="25" y1="50" x2="75" y2="50" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"></line>
+            <line class="line-three" x1="25" y1="58" x2="75" y2="58" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"></line>
+          </svg>
+        
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+          <script src="js/hamburger.js"></script>
+    </body>
+</html>
